@@ -12,7 +12,7 @@
      * @param array
      */
     public static void insertSort(int[] array) {
-        for (int i = 2; i < array.length; i++ ) {
+        for (int i = 2（有问题应该为1）; i < array.length; i++ ) {
             int val = array[i];
             int j = i -1;
             while (j >= 0 && array[j] > val) {  // array[j] > val
